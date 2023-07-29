@@ -11,6 +11,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { CardBoxComponent } from './components/card-box/card-box.component';
 import { CarouselItemsComponent } from './components/carousel-items/carousel-items.component';
 import { AmountBoxComponent } from './components/amount-box/amount-box.component';
+import { FeaturesService } from './services/features.service';
 
 
 @NgModule({
@@ -26,7 +27,7 @@ import { AmountBoxComponent } from './components/amount-box/amount-box.component
 		BrowserModule,
 		AppRoutingModule,
 		SvgComponentsModule,
-		HttpClientModule
+		HttpClientModule,
 	],
 	providers: [],
 	bootstrap: [AppComponent]
