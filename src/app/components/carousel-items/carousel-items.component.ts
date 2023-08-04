@@ -36,6 +36,7 @@ export class CarouselItemsComponent implements OnInit {
 			this.activeIndex--;
 			this.updateVisibleItems();
 		}
+		
 	}
 
 	moveRight() {
